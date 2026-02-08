@@ -7,14 +7,18 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cowsay": "cowsay",
+    "moo": "cowsay 'Hello from npm scripts!'",
+    "favorite": "cowsay -f dragon 'Hear me ROAR!'"
+	   
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RVCC-IDMX/cowsay-oliviad118.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "oliviad118",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
